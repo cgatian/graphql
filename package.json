@@ -1,0 +1,21 @@
+{
+  "name": "graphql-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e ts -w ./ -x npm run server",
+    "server": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.0.0",
+    "graphql": "^0.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  }
+}
